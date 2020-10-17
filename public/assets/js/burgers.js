@@ -42,7 +42,7 @@ $(function() {
 
     var newBurger = {
       name: $("#burge").val().trim(),
-      sleepy: $("[name=devoured]:checked").val().trim()
+      devoured: 0
     };
 
     // Send the POST request.
